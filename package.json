@@ -1,0 +1,11 @@
+{
+    "name": "Sunny",
+    "version": "1.0.0",
+    "description": "Sunny",
+    "main": "bot.js",
+    "author": "Warrior0fFaith",
+    "dependencies": {
+        "discord.js": "^11.3.2",
+        "npm": "^6.0.0"
+    }
+}
