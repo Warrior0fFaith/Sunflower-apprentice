@@ -11,7 +11,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-    const pref = msg.content.slice(0, 1);
+    const pref = msg.content.slice(0, 2);
     const args = msg.content.slice(config.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
     
