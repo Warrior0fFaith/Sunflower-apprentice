@@ -28,6 +28,9 @@ client.on('message', msg => {
           
         } else if (command === 'help') {
             msg.channel.send("Have no fear for Sunny is here!^-^")
+        
+        } else if (command === 'List') {
+          msg.channel.send("-Ping -sunshine -hugkirbea -help")
           
         } else {
             return;
