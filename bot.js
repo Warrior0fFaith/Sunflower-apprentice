@@ -19,6 +19,10 @@ client.on('message', msg => {
 
         if (command === 'ping') {
             msg.channel.send("Pong!");
+          
+        } else if (command === 'sunshine') {
+            msg.channel.send(":sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower:")
+          
         } else {
             return;
         }
