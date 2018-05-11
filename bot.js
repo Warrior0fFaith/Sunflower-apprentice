@@ -28,16 +28,6 @@ client.on('message', msg => {
           
         } else if (command === 'help') {
             msg.channel.send("Have no fear for Sunny is here!^-^")
-        
-        } else if (command === 'list') {
-            msg.channel.send("✿Sunny✿ Owner~ WarriorOfFaith
-                               .+ping ~ To play ping pong
-                               .+sunshine ~ Gives you sunflowers
-                               .+hugkirbea ~ Sends Kirbea a warm hug^-^
-                               .+help ~ Trys to help in any situation
-                               .+facepalm ~ Used for dumb moment
-                               .+facedesk ~ When you're bored
-                               .+thetalk ~ For those who need it")
           
         } else if (command === 'facepalm') {
             msg.channel.send("", {file: "https://i.gifer.com/YYBe.gif"});
