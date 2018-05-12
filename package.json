@@ -5,6 +5,29 @@
     "main": "bot.js",
     "author": "Warrior0fFaith",
     "dependencies": {
+    "bufferutil": "^3.0.3",
+    "discord.js": "^11.3.2",
+    "discord.js-musicbot-addon": "^1.10.3",
+    "erlpack": "github: discordapp/erlpack",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "libsodium-wappers": "^0.7.3",
+    "node-opus": "^0.2.7",
+    "npm": "^6.0.0",
+    "opusscript": "0.0.6"
+    const client = new Discord.Client();
+    const music = new Music(client, {
+        youtubeKey: config.ytapikey, //Youtube Dev API3 Key
+        prefix: config.prefix, maxQueueSize: 100,
+    thumbnailType: 'default', deVolume: 100, anyoneCanSkip:
+    true, messageHelp: true,
+        botOwner: '314629969940840448', helpCmd: 'assist',
+    playCmd: 'play',    skipCmd: 'skip', queueCmd: 'queue',
+        pauseCmd:  'pause', resumeCmd: 'resume', volumeCmd:
+    'vol', leaveCmd: 'leave', clearCmd: 'clear', setCmd:
+    'set',
+        loopCmd: 'loop', searchCmd: 'search', ownerCmd:
+    'owner', enableQueueStat: true});
+    
         "discord.js": "^11.3.2",
         "npm": "^6.0.0"
     }
