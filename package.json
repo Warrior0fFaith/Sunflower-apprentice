@@ -1,18 +1,18 @@
 {
-    "name": "Sunny",
-    "version": "1.0.0",
-    "description": "Sunny",
-    "main": "bot.js",
-    "author": "Warrior0fFaith",
-    "dependencies": {
-	    "bufferutil": "^3.0.3",
-	    "discord.js": "^11.3.2",
-	    "discord.js-musicbot-addon": "^1.10.3",
-	    "erlpack": "github:discordapp/erlpack",
-	    "ffmpeg-binaries": "^3.2.2-3",
-	    "libsodium-wappers": "^0.7.3",
-	    "node-opus": "^0.2.7",
-	    "npm": "^6.0.0",
-	    "opusscript": "0.0.6"
-    }
+	"name": "Sunny",
+	"version": "1.0.0",
+	"description": "Sunflowers",
+	"main": "bot.js",
+	"author": "Warrior0fFaith",
+	"dependencies": {
+		"bufferutil": "^3.0.3",
+		"discord.js": "^11.3.2",
+		"discord.js-musicbot-addon": "^1.10.3",
+		"erlpack": "github:discordapp/erlpack",
+		"ffmpeg-binaries": "^3.2.2-3",
+		"libsodium-wrappers": "^0.7.3",
+		"node-opus": "^0.2.7",
+		"npm": "^6.0.0",
+		"opusscript": "0.0.6"
+	}
 }
