@@ -1,1 +1,2 @@
-I'm big fan of whiteboards. I find them quite re-markable.
+
+msg.channel.send(random.select('I'm big fan of whiteboards. I find them quite re-markable.');
