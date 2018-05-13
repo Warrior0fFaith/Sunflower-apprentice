@@ -46,7 +46,7 @@ client.on('message', msg => {
             msg.channel.send("", {file: "https://78.media.tumblr.com/9beae816f6c1247b6fb17069deaa1274/tumblr_nq92toNafF1s307p6o1_500.gif"});
         
 	} else if (command === 'pillowfight') {
-	    msg.channel.send("", {file: "https://marklipinskisblog.files.wordpress.com/2015/07/giphy.gif?w=630")
+	    msg.channel.send("", {file: "https://marklipinskisblog.files.wordpress.com/2015/07/giphy.gif?w=630"});
 				  
         } else {
             return;
