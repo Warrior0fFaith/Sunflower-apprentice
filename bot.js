@@ -49,7 +49,7 @@ client.on('message', msg => {
 	    msg.channel.send("", {file: "https://media1.tenor.com/images/9d8aff140d0c5f608d47447e97959e9b/tenor.gif"});
 		
 	} else if (command === 'flipflop') {
-	    msg.channel.send("", {file: '"https://cdn.discordapp.com/attachments/444633646045986816/445123348385628160/flip_flop_slap.gif"});
+	    msg.channel.send("", {file: "https://cdn.discordapp.com/attachments/444633646045986816/445123348385628160/flip_flop_slap.gif"});
 				  
         } else {
             return;
