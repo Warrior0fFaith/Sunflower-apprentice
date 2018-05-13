@@ -45,6 +45,7 @@ client.on('message', msg => {
         } else if (command === 'thetalk') {
             msg.channel.send("", {file: "https://78.media.tumblr.com/9beae816f6c1247b6fb17069deaa1274/tumblr_nq92toNafF1s307p6o1_500.gif"});
          
+	} else if (command === 'puns') {
 	const random = require('./random.js');
  	    msg.channel.send(random.select('myresponses.txt');
 	     		     
