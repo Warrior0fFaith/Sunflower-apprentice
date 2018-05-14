@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const config = require("./config.json");
+client.user.setPresence({game:{type: "WATCHING", name:"warrior think"}});
 const Music = require('discord.js-musicbot-addon');
 
 const client = new Discord.Client();
