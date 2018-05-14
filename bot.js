@@ -27,8 +27,6 @@ client.on('message', msg => {
         if (command === 'ping') {
             msg.channel.send("Pong!");
 		
-client.user.setPresence({game:{type: "WATCHING", name:"warrior think"}});		
-          
         } else if (command === 'sunshine') {
             msg.channel.send(":sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower:")
           
