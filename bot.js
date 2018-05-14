@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const config = require("./config.json");
 const Music = require('discord.js-musicbot-addon');
+const random = require('./random.js');
 
 const client = new Discord.Client();
 
@@ -46,13 +47,13 @@ client.on('message', msg => {
             msg.channel.send("", {file: "https://78.media.tumblr.com/9beae816f6c1247b6fb17069deaa1274/tumblr_nq92toNafF1s307p6o1_500.gif"});
         
         } else if (command === 'pillowfight') {
-	    msg.channel.send("", {file: "https://media1.tenor.com/images/9d8aff140d0c5f608d47447e97959e9b/tenor.gif"});
+			msg.channel.send("", {file: "https://media1.tenor.com/images/9d8aff140d0c5f608d47447e97959e9b/tenor.gif"});
 		
-	} else if (command === 'flipflop') {
-	    msg.channel.send("", {file: "https://cdn.discordapp.com/attachments/444633646045986816/445123348385628160/flip_flop_slap.gif"});
+		} else if (command === 'flipflop') {
+			msg.channel.send("", {file: "https://cdn.discordapp.com/attachments/444633646045986816/445123348385628160/flip_flop_slap.gif"});
 	
-	} else if (command === 'puns') {
-	    msg.channel.send(random.select('puns'));
+		} else if (command === 'puns') {
+			msg.channel.send(random.select('puns'));
 		
         } else {
             return;
