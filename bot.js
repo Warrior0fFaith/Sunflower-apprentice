@@ -41,7 +41,7 @@ client.on('message', msg => {
             msg.channel.send("", {file: "https://i.gifer.com/YYBe.gif"});
                                  
         } else if (command === 'facedesk') {
-            msg.channel.send("", {file: "https://78.media.tumblr.com/d2ffe551565f2ad80d514872832fbd47/tumblr_inline_njmeprnuqd1r0wq53.gif"});
+            msg.channel.send("", {file: "http://i.neoseeker.com/mgv/59301-Insanity%20Prevails/301/26/facedesk_display.gif"});
         
         } else if (command === 'thetalk') {
             msg.channel.send("", {file: "https://78.media.tumblr.com/9beae816f6c1247b6fb17069deaa1274/tumblr_nq92toNafF1s307p6o1_500.gif"});
