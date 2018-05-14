@@ -54,6 +54,9 @@ client.on('message', msg => {
 	
 		} else if (command === 'puns') {
 			msg.channel.send(random.select('puns'));
+			
+		} else if (command === 'hug') {
+			msg.channel.send(random.select('hug'));
 		
         } else {
             return;
