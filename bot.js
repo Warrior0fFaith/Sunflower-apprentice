@@ -50,6 +50,9 @@ client.on('message', msg => {
 		
 	} else if (command === 'flipflop') {
 	    msg.channel.send("", {file: "https://cdn.discordapp.com/attachments/444633646045986816/445123348385628160/flip_flop_slap.gif"});
+	
+	} else if (command === 'puns') {
+	    msg.channel.send(random.select('puns'));
 		
         } else {
             return;
