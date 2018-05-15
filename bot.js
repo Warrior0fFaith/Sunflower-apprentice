@@ -60,6 +60,7 @@ client.on('message', msg => {
 	
 		} else if (command === 'gang') {
 	    	        msg.channel.send(random.select('gang'));	
+		
 		} else if (command === 'puns') {
 			msg.channel.send(random.select('puns'));
 			
