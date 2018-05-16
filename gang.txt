@@ -1,2 +1,2 @@
-{./gang.jpg}
+(./gang.jpg)
 (./gnag.jpg)
