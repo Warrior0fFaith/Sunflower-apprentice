@@ -15,7 +15,7 @@ const music = new Music(client, {youtubeKey: process.env.ytkey, //Youtube Dev AP
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setActivity(config.defaultActivity);
+ client.user.setPresence({game:{type: "WATCHING", name:"warrior think"}});
 });
 
 client.on('message', msg => {
