@@ -87,7 +87,7 @@ client.on('message', msg => {
 			  .addField('__Commands__ |', 'Facedesk, Facepalm, Fistbump, Flipflop, Gang, Headache, Hide, Hug, Hugkirbea, Info, Newspaper, Pillowfight, Ping, Puns, Thetalk, Tacos, Watergun')
 			  .setColor(16775069)
 			  msg.channel.sendEmbed(info);
-	}
+	          }
 	    
         } else {
             return;
