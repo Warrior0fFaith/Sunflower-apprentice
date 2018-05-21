@@ -83,7 +83,7 @@ client.on('message', msg => {
 		        var info = new Discord.RichEmbed()
                           .setTitle('Here are the magical commands that can help you ^-^ -' )
 			  .addField('__Owner__ |','𝖂𝖆𝖗𝖗𝖎𝖔𝖗𝕺𝖋𝕱𝖆𝖎𝖙𝖍#1055')
-			  .addField('__Prefix__ |,'.+')
+			  .addField('__Prefix__ |','.+')
 			  .addField('__Commands__ |', 'Facedesk, Facepalm, Fistbump, Flipflop, Gang, Headache, Hide, Hug, Hugkirbea, Info, Newspaper, Pillowfight, Ping, Puns, Thetalk, Tacos, Watergun')
 			  .setColor(16775069)
 			  msg.channel.sendEmbed(info);
