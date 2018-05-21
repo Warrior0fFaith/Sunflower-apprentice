@@ -85,7 +85,7 @@ client.on('message', msg => {
 			  .addField('__Owner__ |','𝖂𝖆𝖗𝖗𝖎𝖔𝖗𝕺𝖋𝕱𝖆𝖎𝖙𝖍#1055')
 			  .addField('__Prefix__ |,'.+')
 			  .addField('__Commands__ |', 'Facedesk, Facepalm, Fistbump, Flipflop, Gang, Headache, Hide, Hug, Hugkirbea, Info, Newspaper, Pillowfight, Ping, Puns, Thetalk, Tacos, Watergun')
-			  .setColor(f7d274)
+			  .setColor(16775069)
 			  msg.channel.sendEmbed(info);
 	          }
 	    
