@@ -72,6 +72,9 @@ client.on('message', msg => {
 			
 	} else if (command === 'hug') {
 		msg.channel.send("", {file: random.select('hug')});
+	
+	} else if (command === 'fistbump') {
+		msg.channel.send("", {file: random.select('fistbump')});
 		
         } else {
             return;
