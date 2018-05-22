@@ -81,7 +81,7 @@ client.on('message', msg => {
 		
 	} else if (command === 'info') {
 		        var info = new Discord.RichEmbed()
-                          .setTitle('Here are the magical commands that can help you ^-^ -' )
+                          .setTitle('Here are the magical commands that can help you ^-^ -')
 			  .addField('__Owner__ |','WarriorOfFaith#1055')
 			  .addField('__Prefix__ |','.+')
 			  .addField('__Commands__ |', 'Facedesk, Facepalm, Fistbump, Flipflop, Gang, Headache, Hide, Hug, Hugkirbea, Info, Newspaper, Pillowfight, Ping, Puns, Thetalk, Tacos, Watergun')
