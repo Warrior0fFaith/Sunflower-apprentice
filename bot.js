@@ -14,8 +14,8 @@ const music = new Music(client, {youtubeKey: process.env.ytkey, //Youtube Dev AP
 	ownerCmd: 'owner', enableQueueStat: true});
 
 client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
- client.user.setPresence({game:{type: "WATCHING", name:"sunflowers grow"
+	console.log(`Logged in as ${client.user.tag}!`);
+	client.user.setPresence({game:{type: "WATCHING", name:"sunflowers grow"}});
 });
 
 client.on('message', msg => {
