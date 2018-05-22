@@ -36,7 +36,6 @@ client.on('message', msg => {
           
         } else if (command === 'help') {
             msg.channel.send("Have no fear for **Sunny** is here!^-^")
-	    msg.channel.send("Test")	
           
         } else if (command === 'facepalm') {
             msg.channel.send("", {file: "https://i.gifer.com/YYBe.gif"});
