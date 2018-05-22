@@ -85,8 +85,7 @@ client.on('message', msg => {
 		.setTitle('Here are the magical commands that can help you ^-^ ')
 		.addField('__Owner__ |','WarriorOfFaith#1055')
 		.addField('__Prefix__ |','.+')
-		.addField('__Commands__ |', 'Facedesk / Facepalm [When you need to smack your face on something]') 
-	        .addField('- Fistbump [*balalalalalala*]- Flipflop [Use only for those need it] - Gang [Your fambam] - Headache [Have a headache? Feel free to use this command] - Hide [Use if you need to hide] - Hug [When you want to loaf someone] - Hugkirbea [Loaf towards the Kirby] - Info [Learn about my commands] - Newspaper [For someone who is being a troublemaker] - Pillowfight [Want to smack someone? Use this ;3] - Ping [Ping pong game] - Puns [When you are feeling punny] - Thetalk [Use if someone is being bad] - Tacos [You can use this when you are in the taco mood] - Watergun [When you want to squirt at someone]')
+		.addField('__Commands__ |', 'Facedesk / Facepalm [When you need to smack your face on something] - Fistbump [*balalalalalala*]- Flipflop [Use only for those need it] - Gang [Your fambam] - Headache [Have a headache? Feel free to use this command] - Hide [Use if you need to hide] - Hug [When you want to loaf someone] - Hugkirbea [Loaf towards the Kirby] - Info [Learn about my commands] - Newspaper [For someone who is being a troublemaker] - Pillowfight [Want to smack someone? Use this ;3] - Ping [Ping pong game] - Puns [When you are feeling punny] - Thetalk [Use if someone is being bad] - Tacos [You can use this when you are in the taco mood] - Watergun [When you want to squirt at someone]')
 		.setColor(0xEE7600);
 		msg.channel.sendEmbed(info);
 	    
