@@ -56,7 +56,15 @@ client.on('message', msg => {
 	    msg.channel.send("", {file: "https://media.giphy.com/media/3o7TKCTt7cNHg10utO/giphy.gif"});
 	
 	} else if (command === 'headache') {
-	    msg.channel.send("Here are a few treatments ~ If you have almonds take a handful or more and eat them, Acetaminophen or aspirin, rest, You could be dehydrated, so make sure you drink some water, You could be dehydrated, If you have a migraine, place a cold pack on your forehead. Ice cubes wrapped in a towel, a bag of frozen peas, or even a cold shower may lessen the pain. Keep the compress on your head for 15 minutes, then take a break for 15 minutes.If you have a tension headache, place a heating pad on your neck or the back of your head. If you have a sinus headache, hold a warm cloth to the area that hurts. A warm shower might also do the trick, You can make ginger tea.");
+	    msg.channel.send("Here are a few treatments ~")
+            msg.channel.send("If you have almonds take a handful or more and eat them")
+            msg.channel.send("Acetaminophen or Aspirin")
+            msg.channel.send("Rest")
+            msg.channel.send("You chould be dehydrated, so make sure you drink water")
+            msg.channel.send("If you have a migraine place a cold pack on your forehead. If you do not have those you could place ice cubes wrapped in a towle, a bad of frozen peas, or even a shower may lesses the pain. Keep the compress on your hear for 15mins, then take a break for 15mins.")
+	    msg.channel.send("If you have a sinus headache hold a warm cloth to the area that hurts")
+	    msg.channel.send("A warm shower might also do the trick")
+            msg.channel.send("Ginger tea")	
 		
 	} else if (command === 'newspaper') {
 	    msg.channel.send("", {file: "https://media.discordapp.net/attachments/402702616267718657/445074586279608348/giphy.gif"});
