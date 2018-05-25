@@ -26,7 +26,9 @@ client.on('message', msg => {
     if (pref === config.prefix) {
 
         if (command === 'ping') {
-            msg.channel.send("**Ponged!**", {file: "https://uproxx.files.wordpress.com/2014/01/anime.gif"});
+           const m = await message.channel.send("Ping?");
+           m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
+
 		
         } else if (command === 'sunshine') {
             msg.channel.send(":sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower:")
