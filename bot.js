@@ -96,7 +96,7 @@ client.on('message', msg => {
 		.setColor(0xEE7600);
 		msg.channel.sendEmbed(info);
 		
-	if(command === "purge") {
+	} else if (command === "purge") {
 
 	  const deleteCount = parseInt(args[0], 10);	
 	  
