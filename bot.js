@@ -95,19 +95,7 @@ client.on('message', msg => {
 		.addField('__Commands__ |', 'Facedesk / Facepalm [When you need to smack your face on something] - Fistbump [*balalalalalala*]- Flipflop [Use only for those need it] - Gang [Your fambam] - Headache [Have a headache? Feel free to use this command] - Hide [Use if you need to hide] - Hug [When you want to loaf someone] - Hugkirbea [Loaf towards the Kirby] - Info [Learn about my commands] - Newspaper [For someone who is being a troublemaker] - Pillowfight [Want to smack someone? Use this ;3] - Ping [Ping pong game] - Puns [When you are feeling punny] - Thetalk [Use if someone is being bad] - Tacos [You can use this when you are in the taco mood] - Watergun [When you want to squirt at someone]')
 		.setColor(0xEE7600);
 		msg.channel.sendEmbed(info);
-		
-	} else if (command === "purge") {
-
-	  const deleteCount = parseInt(args[0], 10);	
-	  
-	  if(!deleteCount || deleteCount < 2 || deleteCount > 100)
-            return message.reply("Please provide a number between 2 and 100 for the number of messages to delete");
-		
-	  const fetched = await message.channel.fetchMessages({count: deleteCount});
-          message.channel.bulkDelete(fetched)
-            .catch(error => message.reply(`Couldn't delete messages because of: ${error}`));
-	}	
-		
+			
         } else {
             return;
         }
