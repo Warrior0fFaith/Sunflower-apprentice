@@ -26,7 +26,7 @@ client.on('message', msg => {
     if (pref === config.prefix) {
 
         if (command === 'ping') {
-            msg.channel.send("**Ponged!**", {file: "https://uproxx.files.wordpress.com/2014/01/anime.gif"});
+            msg.channel.send('Pong! Your ping is `' + `${Date.now() - message.createdTimestamp}` + ' ms`');
 
         } else if (command === 'sunshine') {
             msg.channel.send(":sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower::sunflower:")
