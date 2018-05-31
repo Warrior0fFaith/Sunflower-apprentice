@@ -66,7 +66,7 @@ client.on('message', msg => {
                .setField('- A warm shower might also do the trick')
                .setField('- Ginger Tea')
                .setColor(0x990000);
-               msg.channel.sendEmbed(headache);
+               msg.channel.(headache);
 		
 	} else if (command === 'newspaper') {
 	    msg.channel.send("", {file: "https://media.discordapp.net/attachments/402702616267718657/445074586279608348/giphy.gif"});
