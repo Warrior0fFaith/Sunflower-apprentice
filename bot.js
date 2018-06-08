@@ -57,7 +57,7 @@ client.on('message', msg => {
 	
 	} else if (command === 'headache') {
 	       var headache = new Discord.RichEmbed()
-               .setTitle('__These treatments should help you (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧__')
+               .setTitle('__These treatments should help you (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧__ ')
                .addField('- If you have almonds take a handful or more and eat them')
                .addField('- Acetaminophen or Aspirin')
                .addField('- You chould be dehydrated, so make sure you drink water')
