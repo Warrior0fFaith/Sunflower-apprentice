@@ -53,7 +53,7 @@ client.on('message', msg => {
 	    msg.channel.send("", {file: "https://cdn.discordapp.com/attachments/444633646045986816/445123348385628160/flip_flop_slap.gif"});
 	
 	} else if (command === 'tacos') {
-	    msg.channel.send("", {file: "https://media.giphy.com/media/3o7TKCTt7cNHg10utO/giphy.gif"});
+	    msg.channel.send("", {file: "http://content.forums.previously.tv/monthly_2017_11/psych_det.gif.0c328743a39d9bb92ed5291d126e865f.gif"});
 	
 	} else if (command === 'headache') {
 	       var headache = new Discord.RichEmbed()
