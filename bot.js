@@ -86,6 +86,9 @@ client.on('message', msg => {
 	} else if (command === 'food') {
 		msg.channel.send("", {file: random.select('food')});
 		
+	} else if (command === 'tea') {
+		msg.channel.send("", {file: random.select('tea')});
+		
 	} else if (command === 'info') {
 		var info = new Discord.RichEmbed()
 		.setTitle('Here are the magical commands that can help you ^-^ ')
