@@ -92,8 +92,8 @@ client.on('message', msg => {
 	} else if (command === 'coffee') {
 		msg.channel.send("", {file: random.select('coffee')});
 	
-	} else if (command === 'dancing') {
-		msg.channel.send("", {file: random.select('coffe')});
+	} else if (command === 'dance') {
+		msg.channel.send("", {file: random.select('dance')});
 		
 	} else if (command === 'info') {
 		var info = new Discord.RichEmbed()
