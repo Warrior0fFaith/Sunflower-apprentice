@@ -58,7 +58,7 @@ client.on('message', msg => {
 	} else if (command === 'headache') {
 	       var headache = new Discord.RichEmbed()
                .setTitle('__These Treatments Should Help You__ ')
-               .addField('__(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧__', '- If you have almonds take a handful or more and eat them\n' + '- Acetaminophen or Aspirin\n' + '- You chould be dehydrated, so make sure you drink water\n' + '- If you have a migraine place a cold pack on your forehead. If you do not have those you could place ice cubes wrapped in a towel, a bag of frozen peas, or even a shower may lessen the pain. Keep the compress on your hear for 15mins, then take a break for 15min\n' + '- If you have a sinus headache hold a warm cloth to the area that hurts\n' + '- A warm shower might also do the trick\n' + '- Ginger Tea\n')
+               .addField('__(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧__', '- If you have almonds take a handful or more and eat them\n' + '- Acetaminophen or Aspirin\n' + '- You chould be dehydrated, so make sure you drink water\n' + '- If you have a migraine place a cold pack on your forehead. If you do not have those you could place ice cubes wrapped in a towel, a bag of frozen peas, or even a shower may lessen the pain. Keep the compress on your head for 15mins, then take a break for 15min\n' + '- If you have a sinus headache hold a warm cloth to the area that hurts\n' + '- A warm shower might also do the trick\n' + '- Ginger Tea\n')
                .setColor(0x990000);
                msg.channel.sendEmbed(headache);
 		
