@@ -92,7 +92,6 @@ client.on('message', msg => {
 	} else if (command === 'coffee') {
 		msg.channel.send("", {file: random.select('coffee')});
 
-
 	} else if (command === 'chilling') { 
 		msg.channel.send("", {file: random.select('chilling') {
 
